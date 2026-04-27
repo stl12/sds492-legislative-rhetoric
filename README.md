@@ -6,6 +6,7 @@ Legislative Rhetoric: Evidence from Primary Losers in the U.S. House, 1954-2024.
 
 ## Repository Structure
 
+```
 sds492-legislative-rhetoric/
 ├── main.R                        # Run all scripts in order
 ├── code/                         # Analysis scripts
@@ -13,6 +14,7 @@ sds492-legislative-rhetoric/
 │   ├── raw/                      # Input data
 │   └── processed/                # Pre-computed outputs
 └── figures/                      # Output figures
+```
 
 ## Code
 
