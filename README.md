@@ -19,7 +19,7 @@ sds492-legislative-rhetoric/
 ## Code
 
 - `00_appendix_pres_vote_share.R` — Preprocessing script that generated `primary_losers_pres_comp_ALL.csv` from county-level presidential returns. Pre-computed output is provided in `data/raw/`; this script does not need to be rerun.
-- `01_data_merge.R` through `10_figures.R` — Main analysis pipeline. Run in order via `main.R`.
+- `01_data_merge.R` through `10_figures.R` — Main analysis pipeline. Please run in order via `main.R`.
 
 ## Data
 
@@ -31,7 +31,7 @@ sds492-legislative-rhetoric/
 - primary_losers_pres_comp_ALL.csv — Presidential vote share competitiveness
 - Loughran-McDonald_MasterDictionary_1993-2024.csv — LM dictionary
 
-### Not included (too large or third-party terms of use)
+### Not included (too large)
 Two speech corpora must be downloaded separately and placed in the indicated folders:
 
 - **Gentzkow-Shapiro corpus** (1954-1994)
@@ -53,7 +53,7 @@ do not need to be rerun:
 
 ## Running the Code
 
-To replicate all results, run main.R from the repository root.
+To replicate all results, please run main.R from the repository root.
 To skip the slow scripts, start from script 06:
 
 source("code/06_covariates.R")
